@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parking_selection"
+    android:background="#89CFF0">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:text="PARKING 1"
+        android:textStyle="bold|italic"
+        android:textSize="30sp"
+        />
+
+    <ImageView
+        android:id="@+id/Location1"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp"
+        app:srcCompat="@drawable/parking_1" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="176dp"
+        android:text="PARKING 2"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/Location2"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="177dp"
+        app:srcCompat="@drawable/parking_2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:textStyle="bold|italic"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/Location3"
+        android:layout_marginTop="-170dp"
+        android:text="PARKING 3"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/Location3"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_alignParentBottom="true"
+
+
+        android:layout_marginBottom="13dp"
+        app:srcCompat="@drawable/parking_3" />
+
+</RelativeLayout>

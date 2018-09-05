@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "182019672934",
+    "firebase_url": "https://parkingsystem-2313a.firebaseio.com",
+    "project_id": "parkingsystem-2313a",
+    "storage_bucket": "parkingsystem-2313a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182019672934:android:63cc3ddec20686c7",
+        "android_client_info": {
+          "package_name": "com.example.bilalidrees.parkingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182019672934-pdlmci5thbq6t4ct2sfob1ilj1en41pr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bilalidrees.parkingsystem",
+            "certificate_hash": "126bac1598607ff62938707498d3db1031045c9c"
+          }
+        },
+        {
+          "client_id": "182019672934-b7vpcdvhp7ibrk6lfdgojjctq5g7majg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADwHccbknbI_OKYVaJqoufl5RO6B886lI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182019672934-b7vpcdvhp7ibrk6lfdgojjctq5g7majg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
